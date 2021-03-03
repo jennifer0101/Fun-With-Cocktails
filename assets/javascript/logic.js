@@ -1,5 +1,11 @@
-$(document).ready()
-
+$(document).ready(function(){
+  $('#content').pushpin({
+    top: $('#content').offset().top
+  });
+  $('.scrollspy').scrollSpy({
+    scrollOfffset: 0
+  });
+});
 
 const queryURL = "https://www.themealdb.com/api/json/v1/1/categories.php";
 $.ajax({
@@ -28,5 +34,4 @@ $.ajax({
   const info = document.createElement("h6");
   info.innerHTML = foodDescrip;
   foodDiv.appendChild(info);
-
 })

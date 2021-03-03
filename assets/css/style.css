@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fbf5ec;
+}
+
+a.active {
+    background-color: #ea454b;
+  }
+  
+  #services {
+    background-color: red;
+    height: 600px;
+  }
+  
+  #about {
+    background-color: yellow;
+    height: 600px;
+  }
+  
+  #dessert {
+    background-color: blue;
+    height: 600px;
+  }
+
+  #content {
+    background-color: #002F6C !important;
+  }
+
+  .page-footer {
+    background-color: #F0AD4E !important;
+}
+
+.footer-copyright {
+    background-color: #002F6C !important;
+}
+
