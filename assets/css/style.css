@@ -1,6 +1,5 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #fbf5ec;
 }
 
 a.active {
@@ -26,6 +25,17 @@ a.active {
     background-color: #002F6C !important;
   }
 
+  #logo {
+      width: 150px;
+      height: 150px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+
   .page-footer {
     background-color: #F0AD4E !important;
 }
@@ -33,4 +43,6 @@ a.active {
 .footer-copyright {
     background-color: #002F6C !important;
 }
+
+
 
