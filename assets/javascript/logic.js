@@ -1,8 +1,12 @@
 $(document).ready(function(){
   $('.scrollspy').scrollSpy();
-  // $('.parallax').parallax();
-  $('.sidenav').sidenav();
+  $('.carousel').carousel();
+  $('.sidenav').sidenav(); 
   // $('.tooltipped').tooltip();
+  $('.carousel').carousel();
+  setInterval(function() {
+    $('.carousel').carousel('next');
+  }, 2000);
 });
 
 

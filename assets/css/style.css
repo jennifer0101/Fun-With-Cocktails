@@ -19,10 +19,10 @@ padding-bottom: 100px;
 }
 
 
-/* Scrolling pages */
 
 
-  
+
+/* Scrolling pages */ 
 #services {
     background-color: red;
     height: 600px;
@@ -85,3 +85,4 @@ textarea.active {
   background-color: #002F6C !important;
   color: white !important;
 }
+
