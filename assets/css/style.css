@@ -19,7 +19,8 @@ body {
 }
 
 #contact-form {
-padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 .background {
@@ -38,14 +39,18 @@ h3, h5{
 
 #collection-wrap {
   width: 30%;
-  
-  
- 
   display: block;
   margin-left: auto;
-  margin-right: auto;
- 
-  
+  margin-right: auto; 
+}
+
+#contact-title {
+  padding-top: 20px;
+}
+
+.contact-info {
+  font-size: 16px;
+  text-align: center;
 }
 
 
