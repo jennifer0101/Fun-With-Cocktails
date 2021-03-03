@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #logo {
@@ -19,7 +19,6 @@ body {
 }
 
 #contact-form {
-padding-top: 100px;
 padding-bottom: 100px;
 }
 
@@ -31,35 +30,52 @@ padding-bottom: 100px;
   padding-top: 100px;
 }
 
+h3, h5{
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+
+#collection-wrap {
+  width: 30%;
+  
+  
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  
+}
+
+
+/* Dessert section from API */
 #foodView {
   text-align: center;
 }
-#foodView h4 {
+#foodView h3 {
   text-align: center;
-  font-style: italic;
+  font-weight: bolder;
+  padding-bottom: 30px;
 }
 
 #foodView h6 {
   text-align:left;
   line-height: 1.6;
   font-size: 20px;
+  padding-top: 20px;
 }
-
-
-
-
-
 
 
 /* Scrolling pages */ 
 #services {
     background-color: red;
-    height: 600px;
+    height: 100%;
 }
   
 #about {
     background-color: yellow;
-    height: 600px;
+    height: 100%;
 }
   
 #dessert {

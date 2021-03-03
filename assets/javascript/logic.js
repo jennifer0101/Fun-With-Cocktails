@@ -24,7 +24,7 @@ $.ajax({
 
   // Output the data - name
   const foodName= food.strCategory;
-  const heading = document.createElement("h4");
+  const heading = document.createElement("h3");
   heading.innerHTML = foodName;
   foodDiv.appendChild(heading);
 
