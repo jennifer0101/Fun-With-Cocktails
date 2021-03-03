@@ -1,21 +1,12 @@
 $(document).ready(function(){
-
   $('.scrollspy').scrollSpy();
-  $('.pushpin').pushpin();
+  // $('.parallax').parallax();
   $('.sidenav').sidenav();
-
-  $('#content').pushpin({
-    top: $('#content').offset().top
-  });
-  $('.scrollspy').scrollSpy({
-    scrollOfffset: 0
-  });
-
+  // $('.tooltipped').tooltip();
 });
 
- 
 
-
+// Pulling data from TheMealDB API
 const queryURL = "https://www.themealdb.com/api/json/v1/1/categories.php";
 $.ajax({
   url:queryURL,
