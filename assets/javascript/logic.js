@@ -1,11 +1,20 @@
 $(document).ready(function(){
-  // $('#content').pushpin({
-  //   top: $('#content').offset().top
-  // });
-  // $('.scrollspy').scrollSpy({
-  //   scrollOfffset: 0
-  // });
+
+  $('.scrollspy').scrollSpy();
+  $('.pushpin').pushpin();
+  $('.sidenav').sidenav();
+
+  $('#content').pushpin({
+    top: $('#content').offset().top
+  });
+  $('.scrollspy').scrollSpy({
+    scrollOfffset: 0
+  });
+
 });
+
+ 
+
 
 const queryURL = "https://www.themealdb.com/api/json/v1/1/categories.php";
 $.ajax({

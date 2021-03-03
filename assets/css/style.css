@@ -2,41 +2,52 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#logo {
+  width: 150px;
+  height: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#contact-form {
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+
+/* Scrolling pages */
+
 a.active {
     background-color: #ea454b;
-  }
+}
   
-  #services {
+#services {
     background-color: red;
     height: 600px;
-  }
+}
   
-  #about {
+#about {
     background-color: yellow;
     height: 600px;
-  }
+}
   
-  #dessert {
+#dessert {
     background-color: blue;
     height: 600px;
-  }
+}
 
-  #content {
+
+/* Change colors on navbar and footer to match client */
+
+#content {
     background-color: #002F6C !important;
-  }
+}
 
-  #logo {
-      width: 150px;
-      height: 150px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-  }
-
-  .page-footer {
+.page-footer {
     background-color: #F0AD4E !important;
 }
 
@@ -44,9 +55,31 @@ a.active {
     background-color: #002F6C !important;
 }
 
-#contact-form {
-    text-align: right !important;
+
+/* Change colors on contact form to match client */
+ 
+input:focus {
+  border-bottom: 1px solid #F0AD4E !important;
+  box-shadow: 0 1px 0 0 #F0AD4E !important;
 }
 
+label.active {
+  color: #F0AD4E !important;
+} 
+
+textarea:focus {
+  border-bottom: 1px solid #F0AD4E !important;
+  box-shadow: 0 1px 0 0 #F0AD4E !important;
+}
+
+textarea.active {
+  color: #F0AD4E !important;
+} 
 
 
+/* Change colors on buttons to match client */
+
+.btn {
+  background-color: #002F6C !important;
+  color: white !important;
+}
