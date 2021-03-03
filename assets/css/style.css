@@ -1,16 +1,21 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
 }
 
 #logo {
   width: 150px;
   height: 150px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+#logo-space {
+  height: 175px;
 }
 
 #contact-form {
@@ -25,6 +30,24 @@ padding-bottom: 100px;
 .side-links {
   padding-top: 100px;
 }
+
+#foodView {
+  text-align: center;
+}
+#foodView h4 {
+  text-align: center;
+  font-style: italic;
+}
+
+#foodView h6 {
+  text-align:left;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+
+
+
 
 
 
@@ -41,7 +64,7 @@ padding-bottom: 100px;
   
 #dessert {
     background-color: blue;
-    height: 600px;
+    height: 100%;
 }
 
 
