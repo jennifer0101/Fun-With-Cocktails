@@ -37,21 +37,29 @@ body {
   padding-top: 100px;
 }
 
-h3, h5{
+h3, h5 {
   text-align: center;
   font-weight: bolder;
   padding-bottom: 30px;
 }
 
+#services-heading {
+  padding-top: 0;
+}
+
+#about-heading {
+  padding-top: 100px;
+}
+
 #collection-wrap {
-  width: 30%;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto; 
 }
 
 #collection-wrapper {
-  width: 30%;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto; 
@@ -66,12 +74,20 @@ h3, h5{
   text-align: center;
 }
 
+#team-pic {
+  float: left;
+  width: 50%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
 
 /* Dessert section from API */
 #foodView {
   text-align: center;
 }
 #foodView h3 {
+  padding-top: 100px;
   text-align: center;
   font-weight: bolder;
   padding-bottom: 30px;
@@ -82,22 +98,20 @@ h3, h5{
   line-height: 1.6;
   font-size: 20px;
   padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 
 /* Scrolling pages */ 
 #services {
-    background-color: red;
     height: 100%;
 }
   
 #about {
-    background-color: yellow;
     height: 100%;
 }
   
 #dessert {
-    background-color: blue;
     height: 100%;
 }
 

@@ -2,7 +2,6 @@ $(document).ready(function(){
   $('.scrollspy').scrollSpy();
   $('.carousel').carousel();
   $('.sidenav').sidenav(); 
-  // $('.tooltipped').tooltip();
   $('.carousel').carousel();
   setInterval(function() {
     $('.carousel').carousel('next');

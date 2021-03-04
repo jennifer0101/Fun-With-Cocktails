@@ -18,11 +18,9 @@
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
-    
 </head>
 
 <body>
-
     <header>
         <div class="logo-space">
             <img src ="assets/images/image2vector.svg" id="logo" alt= "EMD logo SVG"/>
@@ -72,14 +70,18 @@
       <a class="carousel-item" href="#five!"><img src="assets/images/computers.jpg"></a>
     </div>
    
+    <!-- main content -->
     <div class="container">
-        
+
+        <!-- Services section - scrollsby  -->
         <section id="services" class ="scrollspy">
-          <h3>Services</h3>
+          <h3 id="services-heading">Services</h3>
           <p>
             At EMD we strive to provide our clients with a variety of services to meet all of their media needs. We offer a comprehensive list of servies and are able to meet your needs at a great value. 
           </p>
-          <br><br>
+          <br>
+          <div class="row">
+            <div class="col s12 m6 l6">
           <h5>How We Can Help</h5>
           <div id="collection-wrap">
             <ul class="collection">
@@ -92,7 +94,10 @@
               <li class="collection-item">Videography</li>
             </ul>
           </div>
-          <br><br>
+          </div>
+          
+          
+            <div class="col s12 m6 l6">
           <h5>Companies We've Worked With</h5>
           <div id="collection-wrapper">
             <ul class="collection">
@@ -103,44 +108,44 @@
               <li class="collection-item">Blackfish Gear</li>
             </ul>
           </div>
+        </div>
+          </div>
+          <br>
           <p>We look forward to working with you. Please contact us for pricing and more information about what we offer.</p>
-          
         </section>
           
-   
-
+        <!-- About section - scrollsby  -->
         <section id="about" class ="scrollspy">
-          <h3>About</h3>
+          <h3 id="about-heading">About</h3>
+          <img src="assets/images/team.jpg" id="team-pic">
           <p>
             EMD was founded in 2005 in a garage when two college roommates, Henry and John, put their minds together to create all things web related. The office, now located in the IDS Center in downtown Minneapolis, has over 30 employees.
           </p>
-          <br><br>
+          <br>
           <h5>Mission Statment</h5>
           <p>
             We strive to deliver value in our service, and to understand with respect all of our clients needs and to provide a partnership that is created when we host our clients web services, develop their site, market their product or service, or simply give them advice.
           </p>
-          <br><br>
+          <br>
           <h5>Vision</h5>
           <p>
             Our vision is to create a business world full of prosperity, meaning, and connection for all.
           </p>
         </section>
         
-        
-        
+        <!-- Dessert section - scrollsby  -->
         <section id="dessert" class ="scrollspy">
             <div id="foodView"></div>
         </section>
-
     </div> 
 
+    <!-- Footer -->
     <footer class="page-footer">
         <div class="container">
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Elite Media Design</h5>
                 <p class="grey-text text-lighten-4"> 
-            
                   Phone: 763-123-1234
                   <br>
                   Email: <a href="mailto:info@elitemediadesign.com">info@elitemediadesign.com</a>
@@ -166,7 +171,5 @@
 
     <!--Javascript file-->
     <script src="assets/javascript/logic.js"></script>
-
 </body>
-
 </html>
