@@ -8,9 +8,27 @@ $(document).ready(function(){
   }, 2000);
 });
 
+// fetch request
+// fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
+//   .then((response) => {
+//       if (response.ok) {
+//         return response.json();
+//       } else {
+//         throw new Error("NETWORK RESPONSE NOT OK");
+//       }
+//       })
+//       .then(function (data) {
+//         console.log(data);
+//       })
+//       .catch((error) => {
+//         console.error("FETCH ERROR:", error);
+//       });
+
+
+
 
 // Pulling data from TheMealDB API
-const queryURL = "https://www.themealdb.com/api/json/v1/1/categories.php";
+const queryURL = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
 $.ajax({
   url:queryURL,
   method: "GET"
@@ -18,23 +36,24 @@ $.ajax({
   console.log(response);
 
   // Render to HTML
-  const food = response.categories[2];
-  const foodDiv= document.getElementById("foodView");
+  const drink = response.drinks[0];
+  const drinkDiv= document.getElementById("cocktailView");
 
   // Output the data - name
-  const foodName= food.strCategory;
+  const drinkName= drink.strCategory;
   const heading = document.createElement("h3");
-  heading.innerHTML = foodName;
-  foodDiv.appendChild(heading);
+  heading.innerHTML = drinkName;
+  drinkDiv.appendChild(heading);
 
   // Outout the data - image
-  const foodImage = document.createElement("img");
-  foodImage.src = food.strCategoryThumb;
-  foodDiv.appendChild(foodImage);
+  const drinkImage = document.createElement("img");
+  drinkImage.src = drink.strDrinkThumb;
+  drinkDiv.appendChild(drinkImage);
 
   //Output the data - description
-  const foodDescrip = food.strCategoryDescription;
-  const info = document.createElement("h6");
-  info.innerHTML = foodDescrip;
-  foodDiv.appendChild(info);
+  // const drinkIngredients = food.strCategoryDescription;
+  // const info = document.createElement("p");
+  // info.innerHTML = foodDescrip;
+  // foodDiv.appendChild(info);
 })
+
