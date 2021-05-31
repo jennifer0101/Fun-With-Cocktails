@@ -2,40 +2,14 @@ body {
     font-family: 'Raleway', sans-serif;
     line-height: 1.6;
     font-size: 22px;
-    background-color: #212121;
-    color: #eeeeee;
+    background-color:#39393b;
+    color: #fbf8f5;
 }
 
-#headline {
-  font-size: 90px;
-  text-align: center;
-  font-weight: bolder;
-  margin-top: 275px;
-  font-family: 'Cherry Cream Soda', cursive;
-  letter-spacing: 7px;
-}
-
-#drinks-pics {
-  padding-top: 30px;
-  padding-bottom: 400px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  margin: 5px;
-}
-
-#drinks-1 {
-  height: 120px;
-}
-
-#drinks-2 {
-  height: 120px;
-  padding-left: 125px;
-  padding-right: 125px;
-}
-
-#drinks-3 {
-  height: 120px;
+#title-pic {
+  width: 50vw;
+  padding-top: 10%;
+  margin-left: 24%;
 }
 
 #contact-form {
@@ -44,7 +18,7 @@ body {
 }
 
 .text-color, nav ul li a, .sidenav-trigger {
-  color: #212121;
+  color: #39393b;
 }
 
 .background {
@@ -100,15 +74,26 @@ h3, h5, h6 {
   margin-bottom: 10px;
 }
 
-/* Dessert section from API */
+/* Cocktail section from API */
 #cocktailView {
   text-align: center;
 }
+
 #cocktailView h3 {
   padding-top: 100px;
   text-align: center;
   font-weight: bolder;
   padding-bottom: 30px;
+}
+
+#cocktailView img {
+  width: 40%;
+  padding: 8px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: 
+  #c33329;
+  margin-bottom: 40px;
 }
 
 #cocktailView p {
@@ -121,15 +106,23 @@ h3, h5, h6 {
 
 
 /* Scrolling pages */ 
-#services {
+#history {
+    margin-top: 40%;
     height: 100%;
 }
   
 #about {
+  margin-top: 30%;
     height: 100%;
 }
   
-#dessert {
+#cocktails{
+  margin-top: 30%;
+    height: 100%;
+}
+
+#contact {
+  margin-top: 40%;
     height: 100%;
 }
 
