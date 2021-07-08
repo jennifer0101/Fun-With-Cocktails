@@ -30,15 +30,15 @@ function renderDrinks(response) {
   heading.innerHTML = drinkName;
   drinkDiv.appendChild(heading);
 
-  // Output the data - alcoholic/non
+  // Pull the data - alcoholic/non
   let drinkAlco = drink.strAlcoholic;
 
-  // Output the data - glass
+  // Pull the data - glass
   let drinkGlass = drink.strGlass;
 
-  //Render alcoholic and glass to html 
+  //Output alcoholic and glass to html 
   let alcoGlass = ("This is an" + " " + drinkAlco + " " + "drink using a" + " " + drinkGlass + ".")
-  let glassAlco = document.createElement("p");
+  let glassAlco = document.createElement("h5");
   glassAlco.innerHTML = alcoGlass;
   drinkDiv.appendChild(glassAlco);
 
@@ -57,7 +57,7 @@ function renderDrinks(response) {
 };
 
 function renderIngrs (drink, drinkDiv){
-
+  //Pull each ingredient and each measurment
   let drinkIngr1 = drink.strIngredient1;
   let drinkMsr1 = drink.strMeasure1;
  
@@ -103,6 +103,7 @@ function renderIngrs (drink, drinkDiv){
   let drinkIngr15 = drink.strIngredient15;
   let drinkMsr15 = drink.strMeasure15;
 
+  //Add all ingredients and measurments to an array
   const allIngr = [
     drinkMsr1,
     drinkIngr1, 
@@ -136,7 +137,7 @@ function renderIngrs (drink, drinkDiv){
     drinkIngr15
   ];
 
-  // Output the data - measurements, ingredients
+  //Loop through each, check for null, output measurements & ingredients to HTML
   $.each(allIngr, function(index, value){ 
     if (value !== null) {
     } 
