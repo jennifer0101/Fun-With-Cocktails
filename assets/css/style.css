@@ -83,6 +83,14 @@ h3, h5, h6 {
   padding-top: 100px;
   text-align: center;
   font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+#cocktailView h5 {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bolder;
   padding-bottom: 30px;
 }
 
@@ -97,11 +105,12 @@ h3, h5, h6 {
 }
 
 #cocktailView p {
-  text-align:left;
+  text-align: center;
   line-height: 1.6;
   font-size: 20px;
   padding-top: 20px;
   padding-bottom: 40px;
+
 }
 
 
