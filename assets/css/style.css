@@ -6,12 +6,55 @@ body {
     color: #fbf8f5;
 }
 
-#title-pic {
-  width: 50vw;
-  padding-top: 10%;
-  margin-left: 24%;
+.padmar {
+  padding: 0px  !important;
+  margin: 0px !important;
 }
 
+#logopic {
+  background-color: #39393b;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+#clkdrink {
+  background-color: aqua;
+  height: 200px;
+}
+
+#drname {
+  background-color: #c33329;
+  height: 200px;
+}
+
+#drinkpic {
+  background-color: #5b5b5c;
+  height: 400px;
+}
+
+#ingr {
+  background-color: #5b5b5c;
+  height: 300px;
+}
+
+#instru {
+  background-color: #c33329;
+  height: 300px;
+}
+
+#clkinst {
+  background-color: aqua;
+  height: 300px;
+}
+
+#title-pic {
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+
+/*
 #contact-form {
   padding-top: 70px;
   padding-bottom: 100px;
@@ -139,6 +182,6 @@ h3, h5, h6 {
   #nav-mobile {
     display: none;
   } 
-}
+} */
 
 
