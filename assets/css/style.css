@@ -19,7 +19,7 @@ body {
 }
 
 #clkdrink {
-  background-color: aqua;
+  background-color: rgb(20, 224, 224);;
   height: 150px;
   color: #39393b;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 #drinkpic {
-  background-color: #5b5b5c;
+  background-color: #8f8f91;
   height: 350px;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 #clkinst {
-  background-color: aqua;
+  background-color: rgb(20, 224, 224);
   height: 275px;
   color: #39393b;
   text-align: center;
@@ -54,30 +54,45 @@ body {
 #title-pic {
   display: block;
   margin: auto;
-  width: 60%;
+  width: 500px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: whitesmoke;
+  animation-delay: .5s;
+  animation-duration: 2s;
+}
+
+#drinks-3 {
+  width: 50%;
+  padding-top: 210px;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
 }
 
 #clickspot {
   position: relative;
+  animation-delay: 1.5s;
+  animation-duration: 2s;
 }
 
 #clicktext {
   position: absolute;
   left: 2%;
-  top: 40px;
-  font-size: 2.5vw;
+  top: 50px;
+  font-size: 30px;
 }
 
 #button {
   position: absolute;
   left: 70%;
-  top: 40px;
+  top: 45px;
 }
 
 #arrow {
  position: absolute;
  left: 85%;
- top: 25px;
+ top: 45px;
 }
 
 #clickspot2 {
@@ -88,19 +103,33 @@ body {
   position: absolute;
   left: 2%;
   top: 30px;
-  font-size: 1.9vw;
+  font-size: 30px;
+  animation-delay: 4s;
+  animation-duration: 2s;
 }
 
 #button2 {
   position: absolute;
   left: 50%;
   top: 200px;
+  animation-delay: 4.5s;
+  animation-duration: 2s;
 }
 
 #arrow2 {
  position: absolute;
  left: 15%;
- top: 185px;
+ top: 197px;
+ animation-delay: 4.5s;
+ animation-duration: 2s;
+}
+
+#arrow3 {
+ position: absolute;
+ left: 70%;
+ top: -80px;
+ animation-delay: 3s;
+animation-duration: 2s;
 }
 
 .text-color, nav ul li a, .sidenav-trigger, footer {
@@ -123,12 +152,16 @@ h3, h5, h6 {
 }
 
 #footer-text {
-  padding-top: 200px;
+  padding-top: 175px;
+  text-align: center;
+}
+
+.footer-copyright {
   text-align: center;
 }
 
 #quote {
-  padding-bottom: 175px;
+  padding-bottom: 150px;
   font-size: 40px;
   text-align: center;
 }
@@ -148,30 +181,29 @@ h3, h5, h6 {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   font-weight: bolder;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #cocktailView img {
-  width: 40%;
+  width: 300px;
   padding: 5px;
   border-style: solid;
-  border-width: 5px;
-  border-color: 
-  #c33329;
-  margin-top: 38px;
+  border-width: 3px;
+  border-color: #c33329;
+  margin-top: 20px;
 }
 
 #instruView {
   line-height: 1.6;
   font-size: 20px;
-  padding: 40px;
-  font-size: 1.3vw;
+  padding: 30px;
+  font-size: 16px;
 }
 
 #ingrView {
-  font-size: 1vw;
-  padding-top: 40px;
+  font-size: 16px;
+  padding-top: 30px;
 }
 
 

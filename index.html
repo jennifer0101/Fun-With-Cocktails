@@ -18,6 +18,8 @@
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Raleway&display=swap" rel="stylesheet">
+    <!-- It's Tuesday annimation library-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/shakrmedia/tuesday@v1.1.0/build/tuesday.min.css" />
 </head>
 
 <body>
@@ -44,13 +46,13 @@
         <div class="col l7 m7 s12 padmar">
             <div class="col l12 m12 s12" id="logopic">
               <!-- Title Picture -->
-              <img src="assets/images/title.png" id="title-pic">  
+              <img class= "animated tdFadeIn" src="assets/images/title.png" id="title-pic">  
             </div>
             <div class="col l12 m12 s12" id="clkdrink">
-              <div id="clickspot">
+              <div class= "animated tdFadeIn" id="clickspot">
                 <p id="clicktext">Click to see a random cocktail!</p>
                 <a class="btn-floating waves-effect waves-light red btn-large" id="button"><i class="material-icons right">local_bar</i>Click Me</a>
-                <i class="large material-icons" id="arrow">arrow_forward</i>
+                <i class="medium material-icons hide-on-small-only" id="arrow">arrow_forward</i>
               </div>
             </div>
           </div> 
@@ -64,17 +66,18 @@
         </div>
       </div>
       <div class="row padmar">
-        <div class="col l4 m4 s12" id="ingr">
+        <div class="col l4 m4 s6" id="ingr">
           <div id="ingrView"></div>
         </div>
-        <div class="col l5 m4 s12" id="instru">
+        <div class="col l5 m4 s6" id="instru">
           <div id="instruView"></div>
         </div>
         <div class="col l3 m4 s12" id="clkinst">
           <div id="clickspot2">
-            <p id="clicktext2">Click to see measurements <br> and directions!</p>
-            <a class="btn-floating waves-effect waves-light red btn-large" id="button2"><i class="material-icons right">list</i>Click Me</a>
-            <i class="large material-icons" id="arrow2">arrow_back</i>
+            <i class="medium material-icons hide-on-small-only class animated tdFadeIn" id="arrow3">arrow_downward</i>
+            <p id="clicktext2" class= "animated tdFadeIn">Click to see measurements <br> and directions!</p>
+            <a class="btn-floating waves-effect waves-light red btn-large animated tdFadeIn" id="button2"><i class="material-icons right">list</i>Click Me</a>
+            <i class="medium material-icons hide-on-small-only animated tdFadeIn" id="arrow2">arrow_back</i>
           </div>
         </div>
       </div>
@@ -92,11 +95,14 @@
                 </p>
               </div>
               <div class="col l4 offset-l2 s12">
+                <img src="assets/images/drinks-3.png" id="drinks-3">
               </div>
             </div>
           </div>
           <div class="footer-copyright">
-            <div class="row text-color">© 2021 Faye Creative</div>
+            <div class="row text-color">© 2021 Faye Creative<br>
+            <a href="mailto:jennifer@fayecreative.com">jennifer@fayecreative.com</a>
+          </div>
         </div>
     </footer>
     </section>
