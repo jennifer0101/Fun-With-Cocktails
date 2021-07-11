@@ -59,37 +59,44 @@
       </header> 
 
     <!-- main content -->
-    <!-- <div class="row"> -->
+    <!-- Cocktail section - scrollsby  -->
+    <section id="cocktails" class ="scrollspy">
       <div class="row padmar">
         <div class="col l7 m7 s12 padmar">
             <div class="col l12 m12 s12" id="logopic">
               <!-- Title Picture -->
               <img src="assets/images/title.png" id="title-pic">  
             </div>
-            <div class="col l12 m12 s12" id="clkdrink"></div>
+            <div class="col l12 m12 s12" id="clkdrink">
+              <div id="clickspot">
+                <p id="clicktext">Click to see a random cocktail!</p>
+                <a class="btn-floating waves-effect waves-light red btn-large" id="button"><i class="material-icons right">local_bar</i>Click Me</a>
+                <i class="large material-icons" id="arrow">arrow_forward</i>
+              </div>
+            </div>
           </div> 
         <div class="col l5 m5 s12 padmar">
-          <div class="col l12 m12 s12" id="drname"></div>
-          <div class="col l12 m12 s12" id="drinkpic"></div>
+          <div class="col l12 m12 s12" id="drname">
+            <div id="nameView"></div>
+          </div>
+          <div class="col l12 m12 s12" id="drinkpic">
+            <div id="cocktailView"></div>
+          </div>
         </div>
       </div>
       <div class="row padmar">
-        <div class="col l4 m4 s12" id="ingr"></div>
-        <div class="col l5 m4 s12" id="instru"></div>
-        <div class="col l3 m4 s12" id="clkinst"></div>
-      </div>
-    <!-- </div> -->
- 
-
-       <!-- Cocktail section - scrollsby  -->
-       <section id="cocktails" class ="scrollspy">
-        <div class="center-align">
-          <a class="btn-floating waves-effect waves-light red btn-large" id="button"><i class="material-icons right">local_bar</i>Click Me</a>
+        <div class="col l4 m4 s12" id="ingr">
+          <div id="ingrView"></div>
         </div>
-          <div id="cocktailView"></div>
-      </section>
-    </div> 
-
+        <div class="col l5 m4 s12" id="instru">
+          <div id="instruView"></div>
+        </div>
+        <div class="col l3 m4 s12" id="clkinst">
+          
+        </div>
+      </div>
+    </section>
+  
     <!-- Footer -->
     <section id="contact" class ="scrollspy">
     <footer class="page-footer amber">

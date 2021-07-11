@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     font-size: 22px;
     background-color:#39393b;
-    color: #fbf8f5;
+    color: white;
 }
 
 .padmar {
@@ -13,14 +13,15 @@ body {
 
 #logopic {
   background-color: #39393b;
-  height: 400px;
+  height: 450px;
   display: flex;
   justify-content: center;
 }
 
 #clkdrink {
   background-color: aqua;
-  height: 200px;
+  height: 150px;
+  color: #39393b;
 }
 
 #drname {
@@ -54,13 +55,30 @@ body {
   width: 75%;
 }
 
-/*
-#contact-form {
-  padding-top: 70px;
-  padding-bottom: 100px;
+#clickspot {
+  position: relative;
 }
 
-.text-color, nav ul li a, .sidenav-trigger {
+#clicktext {
+  position: absolute;
+  left: 2%;
+  top: 40px;
+  font-size: 2.5vw;
+}
+
+#button {
+  position: absolute;
+  left: 70%;
+  top: 40px;
+}
+
+#arrow {
+ position: absolute;
+ left: 85%;
+ top: 25px;
+}
+
+.text-color, nav ul li a, .sidenav-trigger, footer {
   color: #39393b;
 }
 
@@ -78,43 +96,6 @@ h3, h5, h6 {
   padding-bottom: 30px;
   font-family: 'Cherry Cream Soda', cursive;
   letter-spacing: 3px;
-}
-
-#services-heading {
-  padding-top: 0;
-}
-
-#about-heading {
-  padding-top: 100px;
-}
-
-#collection-wrap {
-  width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-}
-
-#collection-wrapper {
-  width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-}
-
-#contact-title {
-  padding-top: 20px;
-}
-
-.contact-info {
-  font-size: 16px;
-  text-align: center;
-}
-
-#team-pic {
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 10px;
 }
 
 /* Cocktail section from API */
@@ -155,33 +136,5 @@ h3, h5, h6 {
   padding-bottom: 40px;
 
 }
-
-
-/* Scrolling pages */ 
-#history {
-    margin-top: 40%;
-    height: 100%;
-}
-  
-#about {
-  margin-top: 30%;
-    height: 100%;
-}
-  
-#cocktails{
-  margin-top: 30%;
-    height: 100%;
-}
-
-#contact {
-  margin-top: 40%;
-    height: 100%;
-}
-
-@media only screen and (max-width: 992px) {
-  #nav-mobile {
-    display: none;
-  } 
-} */
 
 
