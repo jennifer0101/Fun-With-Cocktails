@@ -13,7 +13,7 @@ body {
 
 #logopic {
   background-color: #39393b;
-  height: 450px;
+  height: 350px;
   display: flex;
   justify-content: center;
 }
@@ -26,33 +26,35 @@ body {
 
 #drname {
   background-color: #c33329;
-  height: 200px;
+  height: 150px;
 }
 
 #drinkpic {
   background-color: #5b5b5c;
-  height: 400px;
+  height: 350px;
 }
 
 #ingr {
   background-color: #5b5b5c;
-  height: 300px;
+  height: 275px;
 }
 
 #instru {
   background-color: #c33329;
-  height: 300px;
+  height: 275px;
 }
 
 #clkinst {
   background-color: aqua;
-  height: 300px;
+  height: 275px;
+  color: #39393b;
+  text-align: center;
 }
 
 #title-pic {
   display: block;
   margin: auto;
-  width: 75%;
+  width: 60%;
 }
 
 #clickspot {
@@ -78,6 +80,29 @@ body {
  top: 25px;
 }
 
+#clickspot2 {
+  position: relative;
+}
+
+#clicktext2 {
+  position: absolute;
+  left: 2%;
+  top: 30px;
+  font-size: 1.9vw;
+}
+
+#button2 {
+  position: absolute;
+  left: 50%;
+  top: 200px;
+}
+
+#arrow2 {
+ position: absolute;
+ left: 15%;
+ top: 185px;
+}
+
 .text-color, nav ul li a, .sidenav-trigger, footer {
   color: #39393b;
 }
@@ -93,29 +118,38 @@ body {
 h3, h5, h6 {
   text-align: center;
   font-weight: bolder;
-  padding-bottom: 30px;
   font-family: 'Cherry Cream Soda', cursive;
   letter-spacing: 3px;
 }
 
-/* Cocktail section from API */
-#cocktailView {
+#footer-text {
+  padding-top: 200px;
   text-align: center;
 }
 
-#cocktailView h3 {
-  padding-top: 100px;
+#quote {
+  padding-bottom: 175px;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* View sections from API */
+#nameView, #cocktailView, #ingrView, #instruView {
+  text-align: center;
+}
+
+#nameView h5 {
   text-align: center;
   font-weight: bolder;
-  padding-bottom: 10px;
+  padding-top: 5px;
 }
 
-#cocktailView h5 {
+#nameView p {
   font-family: 'Raleway', sans-serif;
-  padding-top: 10px;
   text-align: center;
   font-weight: bolder;
-  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #cocktailView img {
@@ -125,16 +159,19 @@ h3, h5, h6 {
   border-width: 5px;
   border-color: 
   #c33329;
-  margin-bottom: 40px;
+  margin-top: 38px;
 }
 
-#cocktailView p {
-  text-align: center;
+#instruView {
   line-height: 1.6;
   font-size: 20px;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding: 40px;
+  font-size: 1.3vw;
+}
 
+#ingrView {
+  font-size: 1vw;
+  padding-top: 40px;
 }
 
 

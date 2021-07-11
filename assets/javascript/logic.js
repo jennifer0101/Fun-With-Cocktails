@@ -28,7 +28,7 @@ function renderDrinks(response) {
 
   // Output the data - name
   let drinkName = drink.strDrink;
-  let heading = document.createElement("h3");
+  let heading = document.createElement("h5");
   heading.innerHTML = drinkName;
   nameDiv.appendChild(heading);
 
@@ -40,7 +40,7 @@ function renderDrinks(response) {
 
   //Output alcoholic and glass to html 
   let alcoGlass = ("This is an" + " " + drinkAlco + " " + "drink using a" + " " + drinkGlass + ".")
-  let glassAlco = document.createElement("h5");
+  let glassAlco = document.createElement("p");
   glassAlco.innerHTML = alcoGlass;
   nameDiv.appendChild(glassAlco);
 
