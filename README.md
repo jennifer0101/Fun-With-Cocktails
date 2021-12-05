@@ -2,7 +2,7 @@
 
 ## Project Description
 
-[Fun With Cocktails](https://jennifer0101.github.io/Fun-With-Cocktails/) is a
+[Fun With Cocktails](https://jennifer0101.github.io/Fun-With-Cocktails/) is an app that allows the user to select random cocktails and see the ingrediants and instructions for making it.
 
 ## Technologies 
 
@@ -14,17 +14,16 @@
 * TheCocktailDB API
 
 ## Screenshots
-![Example screenshot](/images/Screen_shot_FWC.png)
+![Example screenshot](assets/images/Screen_shot_FWC.png)
 
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Generates a random cocktail from TheCokctailDB when a button is clicked.
+* Generates both a list of ingrediants and directions when another button is clicked.
+* Uses It's Tuesday animation library to create fade in of elements.
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Display the list of ingrediants with the quantity displayed inline, not above and below.  
 
 ## Status
 Project is: _in progress_.
