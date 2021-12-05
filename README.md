@@ -12,6 +12,7 @@
 * HTML5
 * Materialize
 * TheCocktailDB API
+* It's Tuesday CSS Animation Library
 
 ## Screenshots
 ![Example screenshot](assets/images/Screen_shot_FWC.png)
