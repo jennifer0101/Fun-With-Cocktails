@@ -1,9 +1,26 @@
 body {
     font-family: 'Raleway', sans-serif;
-    line-height: 1.6;
-    font-size: 22px;
+    line-height: 1.4;
+    font-size: 1.2vw;
     background-color:#39393b;
     color: white;
+}
+
+nav ul li a{
+  color: #39393b;
+  font-size: 35px;
+  padding: 0 50px 0 50px;
+}
+
+.text-color {
+  color: #39393b;
+}
+
+h3, h4, h5, h6 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Cherry Cream Soda', cursive;
+  letter-spacing: 3px;
 }
 
 .padmar {
@@ -36,17 +53,17 @@ body {
 
 #ingr {
   background-color: #5b5b5c;
-  height: 275px;
+  height: 300px;
 }
 
 #instru {
   background-color: #c33329;
-  height: 275px;
+  height: 300px;
 }
 
 #clkinst {
   background-color: rgb(20, 224, 224);
-  height: 275px;
+  height: 300px;
   color: #39393b;
   text-align: center;
 }
@@ -63,24 +80,17 @@ body {
   animation-duration: 2s;
 }
 
-#drinks-3 {
-  width: 50%;
-  padding-top: 210px;
-  -webkit-filter: invert(100%); /* Safari/Chrome */
-  filter: invert(100%);
-}
-
 #clickspot {
   position: relative;
-  animation-delay: 1.5s;
+  animation-delay: 1s;
   animation-duration: 2s;
 }
 
 #clicktext {
   position: absolute;
-  left: 2%;
-  top: 50px;
-  font-size: 30px;
+  left: 10%;
+  top: 25px;
+  font-size: 35px;
 }
 
 #button {
@@ -103,8 +113,8 @@ body {
   position: absolute;
   left: 2%;
   top: 30px;
-  font-size: 30px;
-  animation-delay: 4s;
+  font-size: 35px;
+  animation-delay: 3s;
   animation-duration: 2s;
 }
 
@@ -112,7 +122,7 @@ body {
   position: absolute;
   left: 50%;
   top: 200px;
-  animation-delay: 4.5s;
+  animation-delay: 3s;
   animation-duration: 2s;
 }
 
@@ -120,7 +130,7 @@ body {
  position: absolute;
  left: 15%;
  top: 197px;
- animation-delay: 4.5s;
+ animation-delay: 3s;
  animation-duration: 2s;
 }
 
@@ -128,42 +138,8 @@ body {
  position: absolute;
  left: 70%;
  top: -80px;
- animation-delay: 3s;
-animation-duration: 2s;
-}
-
-.text-color, nav ul li a, .sidenav-trigger, footer {
-  color: #39393b;
-}
-
-.background {
-  height: 100px;
-}
-
-.side-links {
-  padding-top: 100px;
-}
-
-h3, h5, h6 {
-  text-align: center;
-  font-weight: bolder;
-  font-family: 'Cherry Cream Soda', cursive;
-  letter-spacing: 3px;
-}
-
-#footer-text {
-  padding-top: 175px;
-  text-align: center;
-}
-
-.footer-copyright {
-  text-align: center;
-}
-
-#quote {
-  padding-bottom: 150px;
-  font-size: 40px;
-  text-align: center;
+ animation-delay: 2s;
+ animation-duration: 2s;
 }
 
 /* View sections from API */
@@ -171,7 +147,7 @@ h3, h5, h6 {
   text-align: center;
 }
 
-#nameView h5 {
+#nameView h4 {
   text-align: center;
   font-weight: bolder;
   padding-top: 5px;
@@ -195,15 +171,36 @@ h3, h5, h6 {
 }
 
 #instruView {
-  line-height: 1.6;
-  font-size: 20px;
+  font-size: 1.4vw;
   padding: 30px;
-  font-size: 16px;
 }
 
 #ingrView {
-  font-size: 16px;
+  font-size: 1.4vw;
   padding-top: 30px;
+}
+
+/* Footer section */
+#footer-text {
+  padding-top: 175px;
+  text-align: center;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+#quote {
+  padding-bottom: 150px;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+#drinks-3 {
+  width: 50%;
+  padding-top: 210px;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
 }
 
 

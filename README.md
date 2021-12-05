@@ -14,7 +14,7 @@
 * TheCocktailDB API
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](/images/Screen_shot_FWC.png)
 
 ## Features
 List of features ready and TODOs for future development
