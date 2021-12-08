@@ -23,11 +23,8 @@ List of features ready and TODOs for future development
 * Generates both a list of ingredients and directions when another button is clicked.
 * Uses It's Tuesday animation library to create fade in of elements.
 
-To-do list:
-* Display the list of ingredients with the quantity displayed inline, not above and below.  
-
 ## Status
-Project is: _in progress_.
+Project is: _complete_.
 
 ## Contact
 Created by [@jennifer0101](https://www.fayecreative.com) - feel free to contact me!
