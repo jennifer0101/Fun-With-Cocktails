@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('.scrollspy').scrollSpy();
   $('.sidenav').sidenav(); 
   $('#button').click(connectDb);
-
+ 
 function connectDb() {
   //Empty all the div fields of any previous cocktail data
   $("#nameView").empty();

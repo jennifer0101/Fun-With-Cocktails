@@ -8,7 +8,7 @@ body {
 
 nav ul li a{
   color: #39393b;
-  font-size: 35px;
+  font-size: 2.25vw;
   padding: 0 50px 0 50px;
 }
 
@@ -218,13 +218,22 @@ ol:nth-child(even) {
   filter: invert(100%);
 }
 
-@media only screen and (max-width: 1164px) {
-  nav ul li a{
-    font-size: 25px;
-    padding: 0 20px 0 20px;
-  }
+#mobile-demo {
+  background-color:  rgb(20, 224, 224);;
+}
 
+i.material-icons {
+  color: #5b5b5c;
+}
+
+@media only screen and (max-width: 1164px) {
   #arrow3 {
     left: 80%;
    }
+
+   #title-pic {
+    width: 400px;
+  }
 }
+
+
