@@ -236,4 +236,20 @@ i.material-icons {
   }
 }
 
+@media (max-width: 992px) {
+  .flex-s {
+    display: flex;
+    flex-direction: column; /* Stack on top */
+  }
+  #clkinst {
+    order: 1; /* Go down to third position, bring ingr up */
+  }
+  #instru {
+    order: 2; /* stay at second position */
+  }
+  #ingr {
+    order: 3; /* Go Up to first position, bring clkinst down */
+  }
+}
+
 
